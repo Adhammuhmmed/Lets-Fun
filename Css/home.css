@@ -1,0 +1,68 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.my-nav {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff !important;
+}
+.my-nav a {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-size: 1.4375rem;
+  font-style: italic;
+  color: #6001d2;
+  transition: all 0.5s !important;
+}
+.my-nav a:hover {
+  transform: scale(1.2);
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.form-control {
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-radius: 0;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0 transparent;
+  border-bottom: 1px solid #dee2e6 !important;
+  border-color: transparent;
+}
+
+.post #btnPost {
+  background-color: #6001d2;
+  color: #fff;
+  transition: background-color 0.5s;
+}
+.post #btnPost:hover {
+  background-color: rgba(95, 1, 210, 0.89);
+}
+
+.posts .items .item {
+  border-bottom: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.post-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+@media (max-width: 760px) {
+  .logobtn {
+    margin-top: 10px;
+    width: 100% !important;
+  }
+}

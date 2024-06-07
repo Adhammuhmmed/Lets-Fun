@@ -1,0 +1,60 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.log-in h2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-style: italic;
+  color: #6001d2;
+}
+.log-in .caption h3 {
+  font-weight: 700;
+  font-size: 19px;
+}
+.log-in .caption p {
+  font-size: 14px;
+}
+a {
+  color: #6001d2;
+  font-weight: 600;
+  font-style: italic;
+}
+.log-in .btn {
+  background-color: #6001d2;
+  color: #fff;
+}
+.log-in #signUpBtn {
+  background-color: gray;
+}
+.form-control {
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-radius: 0;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0 transparent;
+  border-bottom: 1px solid #dee2e6 !important;
+  border-color: transparent;
+}
+
+@media (max-width: 992px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .row .image {
+    margin: 3px auto;
+  }
+  .log-in {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 565px) {
+  .buttons {
+    width: 100% !important;
+  }
+}

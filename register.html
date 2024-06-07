@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Css/register.css" />
+  </head>
+  <body>
+    <!-- <div class="container"> -->
+    <div class="page p-5">
+      <div class="container p-3">
+        <div class="row">
+          <div class="register p-3 col-6 p-1">
+            <div class="caption text-center py-3">
+              <p class="m-0 p-0">
+                New
+                <a href="index.html" class="text-decoration-none">Lets Fun!</a>
+                account
+              </p>
+            </div>
+            <div class="inputs">
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder=""
+                  id="nameInput"
+                />
+                <label for="nameInput">Your Name</label>
+                <p class="alert alert-danger my-1 d-none" id="nameAlertMsg">
+                  <span><i class="fa-solid fa-circle-exclamation"></i></span>
+                  Enter a name that contains at least 3 letters
+                </p>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder=""
+                  id="emailInput"
+                />
+                <label for="emailInput">Your Email</label>
+                <p class="alert alert-danger my-1 d-none" id="emailAlertMsg">
+                  <span><i class="fa-solid fa-circle-exclamation"></i></span>
+                  Enter an email correctly
+                </p>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder=""
+                  id="passwordInput"
+                />
+                <label for="passwordInput">Password</label>
+                <p class="alert alert-danger my-1 d-none" id="passwordAlertMsg">
+                  <span><i class="fa-solid fa-circle-exclamation"></i></span>
+                  Enter a password that contains at least 6 letters or numbers
+                </p>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder=""
+                  id="rePasswordInput"
+                />
+                <label for="rePasswordInput">Re-Password</label>
+              </div>
+              <div class="password-alert d-none">
+                <p class="text-center text-danger m-0 p-2">
+                  <span><i class="fa-solid fa-circle-exclamation"></i></span>
+                  Your password does not match
+                </p>
+              </div>
+              <div class="fill-inputes d-none">
+                <p class="text-center text-danger m-0 p-2">
+                  <span><i class="fa-solid fa-circle-exclamation"></i></span>
+                  All inputs is required
+                </p>
+              </div>
+              <div class="sucsses d-none">
+                <p class="text-center text-success m-0 p-2">
+                  <span><i class="fa-solid fa-circle-check"></i></span> Sucsses
+                </p>
+              </div>
+              <div class="exists d-none">
+                <p class="text-center text-danger m-0 p-2">
+                  <span><i class="fa-solid fa-circle-exclamation"></i></span>
+                  Email already exists
+                </p>
+              </div>
+              <div class="buttons w-75 my-4 mx-auto">
+                <button class="btn w-100 py-2 my-3 rounded-1" id="registerBtn">
+                  Register
+                </button>
+                <button
+                  class="btn w-100 py-2 bg-secondary rounded-1"
+                  id="logPageBtn"
+                >
+                  Login Page
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="image col-6">
+            <img
+              src="Images/undraw_group_selfie_re_h8gb.svg"
+              alt=""
+              class="w-100 h-100"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Js/register.js"></script>
+  </body>
+</html>
